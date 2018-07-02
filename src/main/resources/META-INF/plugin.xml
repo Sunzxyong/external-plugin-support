@@ -1,0 +1,26 @@
+<idea-plugin>
+    <!--<id>com.zxy.idea.plugin.external-plugin-support</id>-->
+    <name>Android External Plugin Support</name>
+    <vendor email="zhengxiaoyong0808@gmail.com" url="https://github.com/Sunzxyong">郑晓勇</vendor>
+
+    <depends>org.jetbrains.plugins.gradle</depends>
+    <depends>org.jetbrains.android</depends>
+    <depends>org.intellij.groovy</depends>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+     on how to target different products -->
+
+    <!--<depends>com.intellij.modules.lang</depends>-->
+    <!--<depends>com.intellij.modules.java</depends>-->
+    <!--<depends>com.intellij.modules.ultimate</depends>-->
+    <!--<depends>com.intellij.modules.androidstudio</depends>-->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <treeStructureProvider implementation="com.zxy.idea.plugin.external.plugin.support.GradlePluginTreeStructureProvider"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
