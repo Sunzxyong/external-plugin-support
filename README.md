@@ -2,7 +2,8 @@
 Show the source code [Groovy、Java、Class] for Android Gradle Plugin and Custom Gradle Plugin, such as External Libraries.
 
 ----
-![](https://github.com/Sunzxyong/external-plugin-support/blob/master/external-plugins.png =500x323)
+
+<img src="https://github.com/Sunzxyong/external-plugin-support/blob/master/external-plugins.png" width="500" hegiht="323" />
 
 ## **Install**
 
