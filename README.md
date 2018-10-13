@@ -1,7 +1,7 @@
 # **External Plugin Support**
 The IDEA plugin to show the source code [Groovy、Java、Class] for Android Gradle Plugin and Custom Gradle Plugin. Such as External Libraries.
 
-<img src="https://github.com/Sunzxyong/external-plugin-support/blob/master/external-plugins.png" width="500" hegiht="323" />
+<img src="https://raw.githubusercontent.com/Sunzxyong/external-plugin-support/master/external-plugins.png" width="500" hegiht="323" />
 
 ## **Install**
 ### **1、Network**

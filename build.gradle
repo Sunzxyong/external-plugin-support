@@ -44,7 +44,7 @@ dependencies {
 }
 
 group = 'com.zxy.idea.plugin'
-version = '1.0'
+version = '1.1'
 
 intellij {
     pluginName = 'Android External Plugin Support'
@@ -70,9 +70,10 @@ patchPluginXml {
     //Product ID-Branch number-Build number in the branch，see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html
     //untilBuild = "AI-181"
     pluginDescription = "Show the source code [Groovy、Java、Class] for Android Gradle Plugin and Custom Gradle Plugin. Such as External Libraries." + "<br/>" +
-            "<img src=\'http://7xswxf.com2.z0.glb.qiniucdn.com/source/external-plugins.png\' width=\'320\' height=\'206\'/>" + "<br/>"+
+            "<img src=\'https://raw.githubusercontent.com/Sunzxyong/external-plugin-support/master/external-plugins.png\' width=\'320\' height=\'206\'/>" + "<br/>" +
             "\n<li>Support Android Studio 3.1.0+</li>\n"
-    changeNotes = "\n<li>1.0: First version.</li>\n"
+    changeNotes = "\n<li>1.0: First version.</li>" +
+            "<li>1.1: Update the description.</li>\n"
 }
 
 Properties properties = new Properties()
