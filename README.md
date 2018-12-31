@@ -13,6 +13,11 @@ The IDEA plugin to show the source code [Groovy、Java、Class] for Android Grad
 ## **Support**
 * **Android Studio 3.1.0+.**
 
+## **About**
+**Blog**：[https://zhengxiaoyong.com](https://zhengxiaoyong.com)
+**Wechat**：
+![](https://raw.githubusercontent.com/Sunzxyong/ImageRepository/master/qrcode.jpg)
+
 # **LICENSE**
 >
 >     Apache License
