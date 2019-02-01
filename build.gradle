@@ -44,7 +44,7 @@ dependencies {
 }
 
 group = 'com.zxy.idea.plugin'
-version = '1.1'
+version = '1.2'
 
 intellij {
     pluginName = 'Android External Plugin Support'
@@ -73,7 +73,8 @@ patchPluginXml {
             "<img src=\'https://raw.githubusercontent.com/Sunzxyong/external-plugin-support/master/external-plugins.png\' width=\'320\' height=\'206\'/>" + "<br/>" +
             "\n<li>Support Android Studio 3.1.0+</li>\n"
     changeNotes = "\n<li>1.0: First version.</li>" +
-            "<li>1.1: Update the description.</li>\n"
+            "<li>1.1: Update the description.</li>+" +
+            "<li>1.2: Change icon.</li>\n"
 }
 
 Properties properties = new Properties()

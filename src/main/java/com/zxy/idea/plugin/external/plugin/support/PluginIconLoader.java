@@ -8,7 +8,7 @@ import javax.swing.*;
  * Created by zhengxiaoyong on 2018/06/29.
  */
 public class PluginIconLoader {
-    public static final Icon Gradle = load("/icons/gradle.png");
+    public static final Icon Gradle = load("/icons/gradle-svg.svg");
 
     public PluginIconLoader() {
         throw new RuntimeException("Can not be an instance.");
